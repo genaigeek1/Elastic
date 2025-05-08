@@ -15,6 +15,14 @@ This repository serves as a blueprint for Elastic's Professional Services organi
 
 ---
 
+## 🔗 Live Demo
+
+Explore the interactive mindmap version of this framework here:
+
+👉 [GoSellElastic Interactive Markmap](https://genaigeek1.github.io/Elastic/Elastic.html)
+
+---
+
 ## 🎯 Goals
 
 - **Customer Adoption:** Ensure rapid onboarding and early value realization
