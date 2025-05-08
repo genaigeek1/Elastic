@@ -17,9 +17,11 @@ This repository serves as a blueprint for Elastic's Professional Services organi
 
 ## 🔗 Live Demo
 
-Explore the interactive mindmap version of this framework here:
+Explore the interactive mindmap version of this framework:
 
 👉 [GoSellElastic Interactive Markmap](https://genaigeek1.github.io/Elastic/Elastic.html)
+
+[![GoSellElastic Mindmap](images/elastic_mindmap.svg)](https://genaigeek1.github.io/Elastic/Elastic.html)
 
 ---
 
