@@ -21,7 +21,7 @@ Explore the interactive mindmap version of this framework:
 
 👉 [GoSellElastic Interactive Markmap](https://genaigeek1.github.io/Elastic/Elastic.html)
 
-[![GoSellElastic Mindmap](images/elastic_mindmap.svg)](https://genaigeek1.github.io/Elastic/Elastic.html)
+[![GoSellElastic Mindmap](images/img_elastic_mindmap.png)](https://genaigeek1.github.io/Elastic/Elastic.html)
 
 ---
 
