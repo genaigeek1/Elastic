@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Elastic AI Mindmaps</title>
+    <style>
+        body {
+            font-family: Roboto, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #fafafa;
+            color: #202124;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .tile {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s ease;
+        }
+        .tile:hover {
+            transform: translateY(-5px);
+        }
+        .tile img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .tile-content {
+            padding: 1rem;
+        }
+        .tile-title {
+            font-size: 1.25rem;
+            margin: 0 0 0.5rem;
+        }
+        .tile-description {
+            font-size: 0.95rem;
+            color: #5f6368;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elastic AI Mindmaps</h1>
+    <div class="grid">
+        <a class="tile" href="docs/Elastic.html">
+            <img src="images/img_elastic_mindmap.png" alt="Elastic Mindmap" />
+            <div class="tile-content">
+                <div class="tile-title">Elastic Platform Mindmap</div>
+                <div class="tile-description">Explore Elastic’s architecture and platform capabilities.</div>
+            </div>
+        </a>
+        <a class="tile" href="docs/MultiAgentAIEnterprise.html">
+            <img src="images/multiagent_ai_enterprise.png" alt="Multi-Agent AI Mindmap" />
+            <div class="tile-content">
+                <div class="tile-title">Multi-Agent AI in the Enterprise</div>
+                <div class="tile-description">Dive into Google’s Vertex AI ecosystem for agent-based systems.</div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
