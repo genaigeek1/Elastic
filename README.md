@@ -1,4 +1,4 @@
-# Elastic AI Mindmaps
+# Elastic Gen AI Service Mindmaps
 
 This repository contains interactive Markmap-based mindmaps for visualizing key concepts related to Elastic and Vertex AI multi-agent systems.
 
