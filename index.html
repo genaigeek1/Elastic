@@ -2,73 +2,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Elastic AI Mindmaps</title>
-    <style>
-        body {
-            font-family: Roboto, sans-serif;
-            margin: 0;
-            padding: 2rem;
-            background: #fafafa;
-            color: #202124;
-        }
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        .tile {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            text-decoration: none;
-            color: inherit;
-            transition: transform 0.2s ease;
-        }
-        .tile:hover {
-            transform: translateY(-5px);
-        }
-        .tile img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .tile-content {
-            padding: 1rem;
-        }
-        .tile-title {
-            font-size: 1.25rem;
-            margin: 0 0 0.5rem;
-        }
-        .tile-description {
-            font-size: 0.95rem;
-            color: #5f6368;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elastic Generative AI Professional Services</title>
+  <style>
+    body {
+      font-family: Roboto, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #fafafa;
+      color: #202124;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .tile {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0,  0.1);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .tile:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .tile img {
+      width: 100%;
+      height: auto;
+      display: block;
+      animation: pulse 4s infinite ease-in-out;
+    }
+    .tile-content {
+      padding: 1rem;
+    }
+    .tile-title {
+      font-size: 1.25rem;
+      margin: 0 0 0.5rem;
+    }
+    .tile-description {
+      font-size: 0.95rem;
+      color: #5f6368;
+    }
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.02);
+      }
+    }
+    .logo {
+      height: 48px;
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>Elastic AI Mindmaps</h1>
-    <div class="grid">
-        <a class="tile" href="docs/Elastic.html">
-            <img src="images/img_elastic_mindmap.png" alt="Elastic Mindmap" />
-            <div class="tile-content">
-                <div class="tile-title">Elastic Platform Mindmap</div>
-                <div class="tile-description">Explore Elastic’s architecture and platform capabilities.</div>
-            </div>
-        </a>
-        <a class="tile" href="docs/MultiAgentAIEnterprise.html">
-            <img src="images/multiagent_ai_enterprise.png" alt="Multi-Agent AI Mindmap" />
-            <div class="tile-content">
-                <div class="tile-title">Multi-Agent AI in the Enterprise</div>
-                <div class="tile-description">Dive into Google’s Vertex AI ecosystem for agent-based systems.</div>
-            </div>
-        </a>
-    </div>
+  <div class="header">
+    <img class="logo" src="images/img_elastic_mindmap.png" alt="Elastic Logo" />
+    <h1>Elastic Generative AI Professional Services</h1>
+  </div>
+  <div class="grid">
+    <a class="tile" href="docs/Elastic.html">
+      <img src="images/img_elastic_mindmap.png" alt="Elastic Mindmap" />
+      <div class="tile-content">
+        <div class="tile-title">Elastic Platform Mindmap</div>
+        <div class="tile-description">Elastic Gen AI Service – Mindmap covering Professional Services, Elastic Platform, and Gen AI Service Opportunities.</div>
+      </div>
+    </a>
+    <a class="tile" href="docs/MultiAgentAIEnterprise.html">
+      <img src="images/multiagent_ai_enterprise.png" alt="Multi-Agent AI Mindmap" />
+      <div class="tile-content">
+        <div class="tile-title">Multi-Agent AI in the Enterprise</div>
+        <div class="tile-description">Multi Agent AI in the Enterprise – Google Vertex AI vs LangChain Ecosystem.</div>
+      </div>
+    </a>
+    <a class="tile" href="https://www.linkedin.com/in/genaigeek1" target="_blank">
+      <img src="https://media.licdn.com/dms/image/C5603AQFaPehFwPbD7A/profile-displayphoto-shrink_800_800/0/1517390876062?e=2147483647&v=beta&t=1Iw5bXKe6aIC9hvVLnC1FX1pFD6-9mSKCUzUfa3rYYI" alt="LinkedIn Profile" />
+      <div class="tile-content">
+        <div class="tile-title">Connect on LinkedIn</div>
+        <div class="tile-description">Visit the professional profile of the creator behind these AI services and mindmaps.</div>
+      </div>
+    </a>
+  </div>
 </body>
 </html>
