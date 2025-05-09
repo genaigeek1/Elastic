@@ -13,18 +13,51 @@
       background: #f9f9f9;
       color: #202124;
     }
-    h1 {
-      font-size: 2.2rem;
-      font-weight: 500;
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      gap: 1rem;
     }
-    .header {
+    .header-left {
       display: flex;
       align-items: center;
       gap: 1rem;
-      margin-bottom: 2rem;
     }
     .logo {
       height: 50px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      margin: 0;
+    }
+    .profile-tile {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 12px;
+      padding: 0.5rem 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+    .profile-tile:hover {
+      transform: scale(1.03);
+    }
+    .profile-logo {
+      height: 28px;
+      margin-right: 0.5rem;
+    }
+    .profile-photo {
+      height: 36px;
+      width: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 0.5rem;
     }
     .grid {
       display: grid;
@@ -52,24 +85,23 @@
     .tile-content {
       padding: 1rem 1.25rem;
     }
+    .tile-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 0.5rem;
+    }
+    .tile-header img {
+      height: 30px;
+    }
     .tile-title {
       font-size: 1.4rem;
-      margin-bottom: 0.5rem;
       font-weight: 500;
+      margin: 0;
     }
     .tile-description {
       font-size: 1rem;
       color: #5f6368;
-    }
-    .tile-logos {
-      margin-top: 1rem;
-      display: flex;
-      gap: 10px;
-      align-items: center;
-    }
-    .tile-logos img {
-      height: 26px;
-      width: auto;
     }
     @keyframes pulse {
       0%, 100% {
@@ -82,33 +114,48 @@
   </style>
 </head>
 <body>
-  <div class="header">
-    <img class="logo" src="images/elastic.svg" alt="Elastic Logo" />
-    <h1>Elastic Generative AI Professional Services</h1>
+  <div class="header-container">
+    <div class="header-left">
+      <img class="logo" src="images/elastic.svg" alt="Elastic Logo" />
+      <h1>Generative AI Professional Services</h1>
+    </div>
+    <div style="display: flex; gap: 0.75rem;">
+      <a class="profile-tile" href="https://www.linkedin.com/in/genaigeek/" target="_blank">
+        <img class="profile-logo" src="images/linkedin.png" alt="LinkedIn Logo" />
+        <span>LinkedIn</span>
+        <img class="profile-photo" src="images/genaigeek.jpeg" alt="Profile Photo" />
+      </a>
+      <a class="profile-tile" href="https://github.com/genaigeek1" target="_blank">
+        <img class="profile-logo" src="images/github.svg" alt="GitHub Logo" />
+        <span>GitHub</span>
+        <img class="profile-photo" src="images/genaigeek.jpeg" alt="Profile Photo" />
+      </a>
+    </div>
   </div>
+
   <div class="grid">
     <a class="tile" href="docs/Elastic.html">
       <img class="main" src="images/img_elastic_mindmap.png" alt="Elastic Mindmap" />
       <div class="tile-content">
-        <div class="tile-title">Elastic GenAI Services - Mindmap</div>
-        <div class="tile-description">
-          Mindmap covers General Professional Services, Elastic Platform and Gen AI Service Opportunities.
-        </div>
-        <div class="tile-logos">
+        <div class="tile-header">
           <img src="images/elastic.svg" alt="Elastic Logo" />
+          <div class="tile-title">GenAI Professional Services Mindmap</div>
+        </div>
+        <div class="tile-description">
+          Covers Professional Services, Elastic Platform and Gen AI Opportunities.
         </div>
       </div>
     </a>
     <a class="tile" href="docs/MultiAgentAIEnterprise.html">
       <img class="main" src="images/multiagent_ai_enterprise.png" alt="Multi-Agent AI Mindmap" />
       <div class="tile-content">
-        <div class="tile-title">Multi Agent AI in the Enterprise</div>
-        <div class="tile-description">
-          Google Vertex AI Agentic Capability vs Open Source LangChain Ecosystems.
-        </div>
-        <div class="tile-logos">
+        <div class="tile-header">
           <img src="images/gcp.svg" alt="GCP Logo" />
           <img src="images/langchain.svg" alt="LangChain Logo" />
+          <div class="tile-title">Multi Agent AI in the Enterprise</div>
+        </div>
+        <div class="tile-description">
+          Google Vertex AI Agentic Capability vs Open Source LangChain Ecosystems.
         </div>
       </div>
     </a>
