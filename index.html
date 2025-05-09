@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Elastic Generative AI Professional Services</title>
+  <title>Generative AI Professional Services</title>
   <style>
     body {
       font-family: 'Roboto', sans-serif;
@@ -59,12 +59,12 @@
       object-fit: cover;
       margin-left: 0.5rem;
     }
-    .grid {
+    .grid { height: 80vh; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 1.5rem;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; min-height: 80vh;
       gap: 2rem;
     }
-    .tile {
+    .tile { height: 100%; display: flex; flex-direction: column; justify-content: space-between;
       background: white;
       border-radius: 16px;
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
@@ -77,12 +77,12 @@
       transform: translateY(-6px);
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     }
-    .tile img.main {
+    .tile img.main { max-height: 45%; object-fit: cover;
       width: 100%;
       display: block;
       animation: pulse 5s infinite ease-in-out;
     }
-    .tile-content {
+    .tile-content { flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start; padding: 1rem 1.25rem;
       padding: 1rem 1.25rem;
     }
     .tile-header {
@@ -110,6 +110,17 @@
       50% {
         transform: scale(1.01);
       }
+    }
+    .coming-soon {
+      font-size: 1.2rem;
+      text-align: center;
+      padding: 2rem;
+      color: #888;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
     }
   </style>
 </head>
@@ -159,6 +170,31 @@
         </div>
       </div>
     </a>
+    <a class="tile" href="docs/databricks.html">
+      <img class="main" src="images/img_databricks_mindmap.png" alt="Databricks Mindmap" />
+      <div class="tile-content">
+        <div class="tile-header">
+          <img src="images/databricks.png" alt="Databricks Logo" />
+          <div class="tile-title">Databricks Mindmap</div>
+        </div>
+        <div class="tile-description">
+          Managing a Unified GenAI, MLOps, DataOps Organization.
+        </div>
+      </div>
+    </a>
+    <div class="tile">
+      
+      <div class="tile-content">
+        <div class="tile-header">
+          <img src="images/snowflake.svg" alt="Snowflake Logo" />
+          <div class="tile-title">Snowflake Mindmap</div>
+        </div>
+        <div class="tile-description">
+          Managing a Unified GenAI, MLOps, DataOps Organization.
+        </div>
+        <div class="coming-soon">Coming Soon...</div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
