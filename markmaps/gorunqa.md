@@ -1,0 +1,185 @@
+---
+title: GoRunQA
+markmap:
+  colorFreezeLevel: 2
+  initialExpandLevel: 2
+---
+
+# GoRunQAServices
+## Goals
+  - Service Scaling
+    - Customer Adoption
+    - Customer Retention
+  - Scaling Tools
+    - GenAI Automation
+      - LLM Based Testing
+    - QA Accelerators
+      - Pre-Built  Test Containers
+        - Functionality
+        - Performance
+        - Cost
+        - CyberSecurity
+## Metrics
+  - Qunatitative
+    - Customer Facing
+      - 1st Prod Deployment (<90 Days)
+      - Number of LoBs Onboarded
+      - CSAT( Min~80%|)
+      - Annual Customer Churn %
+    - Own Consulting Firm Facing
+      - Utilization Target (> 85%)
+      - Time To Grow ( Min 15%| Ideal ~20%)
+        - Learning
+        - Training
+        - Innovation
+      - ESAT Score
+        - Minimum ~65%
+        - Ideal ~ 75%
+      - Employee Churn
+        - Global Niche AI Team Down from 10 to 7
+        - In 12 Months
+        - Idicates Major Planning Deficit
+ - Qualitative
+      - Customer Churn Reasons
+        - Delivery Isssues
+          - Scope
+          - Time
+          - Budget
+        - Support Issues
+          - Known Issues
+          - Unknown Issues
+        - Product Issues
+          - Features
+          - Security
+          - Compliance
+      - Employee Churn Reasons
+        - Growth
+        - Compensation
+        - Culture
+## Team Composition
+  - Strategy & Sales
+      - Service Design
+      - Service Sellers
+  - Execution & Delivery
+      - Technical Program Managers
+      - Delivery Solution Architects
+## Activities
+  - Inception
+    - Innovation Workshop
+    - Architecture Blueprint
+    - Delivery Roadmap
+      - SOW Review
+      - Onbaording
+      - Billing
+      - Learning & Enablement
+    - Complimentary Solutions
+  - BAU
+    -  Weekly
+        - Weekly Updates
+        - Customer Touchpoints
+        - Escalation Support
+      - Monthly
+        - Feature Request Reporting
+        - Capacity Review
+        - Operational Health Reviews
+        - Customer NewsLetter
+      - Quarterly
+        - Program Status Review
+        - Adoption Status Review
+        - Customer Roadmap Success Plan
+    - Bi-Annually
+      - FinOps Advisory
+      - Cost Optimization
+      - Architected Health Review
+      - CSAT Survey
+    - Annually
+      - 360 Degree Review
+      - Customer Reference
+        - Co-Blog
+        - Co-Market
+    - As-Needed
+      - Event Planning
+      - Program Health & Status Review
+      - Customer Retrospective
+  - Escalation/ Retention
+      - Executive Alignmemt
+      - Surgical SWAT Team
+      - Strategic Services
+        - free
+        - heavily discounted
+  
+## Artifacts
+- Sales
+  - Service One Pager
+    - What is this Service ?
+      - Brief Description
+      - Engagement
+      - Outcome
+    - Is this Service right for you ?
+      - Top 5 Business Questions
+      - Top 5 Technical Questions
+    - What will you get ?
+      - Key Deliverables
+        - Code
+        - Strategy
+        - Outcome
+    - What we need from you ?
+      - Documentation
+      - Infrastructure
+      - Your Team
+        - Executive Sponsor
+        - Enterprise Solution Architects
+        - On Demand SME's
+    - How much does it Cost
+      - ROM Pricing
+    - Delivery Time & Scope
+      - Clear Scope
+      - Clear Timeline
+  - Service Pitch Deck
+    - Outcome
+    - Value
+    - TCO & ROI Calculators
+- Delivery
+  - Customer Journey Map
+  - Technical Design Documents
+- Support
+  - Support Playbook
+  - Escalation RACI
+- Product Feedback
+  - Knowledge Channel
+  - Feature Request
+  - Bug Request
+  - Roadmaps
+- Customer Account
+  - Customer Health Map
+  - Customer Journey Map
+  - Customer Sentiment Map
+## Outside-In Lense
+  - Gartner
+    - 2X2 Vision vs Execution
+    - Visionary->Niche->Challenger->Leader
+    - Call To Action
+      - Improve Execution 
+  - Forrester
+    - 2X2 Offering vs Strategy
+    - Challengers->Contenders->Strong Performers->Leaders
+    - Current Offering (50%)
+      - Solutions (25%)
+      - Workloads (25%)
+      - Tools (25%)
+      - Deployments (25%)
+    - Current Strategy (50%)
+      - Vision (20%)
+      - Innovation (25%)
+      - Roadmap (25%)
+      - Partner Ecosystem (10%)
+      - Pricing Transparency (10%)
+      - Supporting Services (10%)
+    - Market Presence (0%)
+      - Revenue (50%)
+      - Number of Customers (50%)
+    - Call To Action
+      - Improve Innovation, Roadmap and Service Vision 
+  - IDC
+    - Partnership w/Key Researchers
+    - Proactive Thought Leadership
